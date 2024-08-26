@@ -179,7 +179,7 @@ if currentLoc == 'Project 7(ongoing)':
 
 if currentLoc == "Project 3":
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
-    col2.markdown("## <center>SCIZOPHRENIA DETECTION MODELn</center>", unsafe_allow_html = True)
+    col2.markdown("## <center>SCIZOPHRENIA DETECTION MODEL</center>", unsafe_allow_html = True)
     col2.write("""The main goal of the project is to develop a schizophrenia detection model with EfficientNet.
                \nThe data used was retrieved from schizconnect and processed using matlab dpabi/dparsf and SPI""")
     col2.markdown('Further enquiry can be checked in the <a href = "https://docs.google.com/document/d/1-2tQln0dTxbZkHM7kayoc9dcnRcICnUD/edit?usp=drivesdk&ouid=109569805470530100719&rtpof=true&sd=true">report [gdrive link]</a> or by contacting me', unsafe_allow_html = True)
