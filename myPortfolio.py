@@ -12,7 +12,7 @@ if currentLoc == 'Home':
 if currentLoc == "Project 1":
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.markdown("## <center>UNet Optimized With Differential Evolution</center>", unsafe_allow_html = True)
-    col2.write('The key goal of the project is to optimize a UNet segmentation model such that we can have a small model size which will still perform as exelent as any other SoTA segmentation models.\nThe models compared with were SEGNET, PSPNET, and FCN.\nThe model achieved a weights size of about 5mb in contrast to others that are in the range of tens and hundreds mb.\nThe training data used was potato leaves downloaded from plant village which included Healthy, Early Blight and Late blight. Training was done using just early blight but models were evaluated on all 3 classes. Annotations were done manually.')
+    col2.write('The key goal of the project was to optimize a UNet segmentation model such that we can have a small model size which will still perform as exelent as any other SoTA segmentation models.\nThe models compared with were SEGNET, PSPNET, and FCN.\nThe model achieved a weights size of about 5mb in contrast to others that are in the range of tens and hundreds mb.\nThe training data used was potato leaves downloaded from plant village which included Healthy, Early Blight and Late blight. Training was done using just early blight but models were evaluated on all 3 classes. Annotations were done manually.')
     col2.markdown("""
 TOOLS USED:<ol>
                   <li> VGG IMAGE ANNOTATOR </li>
@@ -37,7 +37,7 @@ if currentLoc == "Project 2":
     df = pd.read_excel('project2 sample table.xlsx')
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.markdown("## <center>UNet with Pretrained Encoders and  Optimized With Differential Evolution</center>", unsafe_allow_html = True)
-    col2.write("""The key objectives of the project is to optimize a number of UNet segmentation architectures with pretrained encoders like VGG19 and so on with differential evolution.
+    col2.write("""The key objectives of the project was to optimize a number of UNet segmentation architectures with pretrained encoders like VGG19 and so on with differential evolution.
                \nIn the project, some layers of he encoder of a standard Unet architecture were replaced with pretrained weights from different models.
                \nNext step was to optimize the layers of the decoder using differential evolution and record the values.
                \nThe training data used for the project include leaves of maize, cassava, yam etc.
@@ -57,7 +57,7 @@ TOOLS USED:<ol>
     col2.markdown("""
 Project Highlight:<ul>
                   <li> Performed data engineering. </li>
-                  <li> Replaced layers of he encoder with pretrained weights </li>
+                  <li> Replaced layers of the encoder with pretrained weights </li>
                   <li> Optimized layers of the decoders to have smmall parameters, low model size and good performance. </li>
                   <li> Achieved good metrics on the segmentation task. MIoU > 75% </li>
                   <li> Implemented a streamlit interface for visualizing predictions </li>
@@ -74,7 +74,7 @@ if currentLoc == "Project 4":
     df = pd.read_excel('project4 sample table.xlsx')
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.markdown("## <center>Tiny Segmentation Network</center>", unsafe_allow_html = True)
-    col2.write("""The key requirement of the project is to build a small model for segmenting plant leaves. The model should be small enough to be deployed a a microcontroller but also powerful enough to perform up to task.
+    col2.write("""The key requirement of the project was to build a small model for segmenting plant leaves. The model should be small enough to be deployed a a microcontroller but also powerful enough to perform up to task.
                \nIn the project, the model mimicked a standard unet but the approach used was utilizing a deeper model and creating different decoder networks for each class and then combining the outputs at the inference.
                \nThe training data used for the project include leaves of maize, cassava, yam etc.,all featuring different types of diseases.
                \nFor evaluation, the model was first evaluated against othe standard Unet architectures with pretrained encoders and then with other SoTA segmentation models.
@@ -117,7 +117,7 @@ if currentLoc == "Project 5":
     df = pd.read_excel('project5 sample table.xlsx')
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.markdown("## <center>Tiny Segmentation and Classification Network</center>", unsafe_allow_html = True)
-    col2.write("""The goal of the project is to build a small model for segmenting and classifying plant leaves. The model should be small enough to be deployed a a microcontroller but also powerful enough to perform up to task.
+    col2.write("""The goal of the project was to build a small model for segmenting and classifying plant leaves. The model should be small enough to be deployed a a microcontroller but also powerful enough to perform up to task.
                \nIn the project, a classification model was built and then integrated with the segmentation model built in the prior project.
                \nIn building the classification model, some concepts used were
                <ul>
