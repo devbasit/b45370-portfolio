@@ -8,6 +8,7 @@ if currentLoc == 'Home':
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.write('My public ML portfolio.\nThis portfolio includes projects majorly conputer vision projects on different areas including classification and segmentation.')
     col2.markdown("<p>Contact\nMAil:<a href = mailto: basitsalam2001@gmail.com >basitsalam2001@gmail.com </a><a href = tel: +2347050837042>+2347050837042</a></p>", unsafe_allow_html = True)
+    col2.markdown("A copy of my CV can be accessed at <a href = 'https://drive.google.com/file/d/1f_9JAof0lxLJPuIkzCcjKxt-ohebQnht/view?usp=sharing'> CV [gdrive link] </a>", unsafe_allow_html = True)
     col2.image('how-to-build-a-machine-learning-portfolio.jpeg')
 if currentLoc == "Project 1":
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
