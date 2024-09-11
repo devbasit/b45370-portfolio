@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(layout = 'wide')
 col1, col2 = st.columns([3,7])
-currentLoc = col1.radio('Go To', ['Home', 'Project 1','Project 2', 'Project 3', 'Project 4', 'Project 5', 'Project 6(nearing final stages)', 'Project 7(ongoing)'])
+currentLoc = st.sidebar.radio('Go To', ['Home', 'Project 1','Project 2', 'Project 3', 'Project 4', 'Project 5', 'Project 6(nearing final stages)', 'Project 7(ongoing)'])
 if currentLoc == 'Home':
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.write('My public ML portfolio.\nThis portfolio includes projects majorly conputer vision projects on different areas including classification and segmentation.')
