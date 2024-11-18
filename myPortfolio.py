@@ -8,7 +8,7 @@ if currentLoc == 'Home':
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.write('My public ML portfolio.\nThis portfolio includes projects majorly conputer vision projects on different areas including classification and segmentation.')
     col2.markdown("<p>Contact\nMAil:<a href = mailto: basitsalam2001@gmail.com >basitsalam2001@gmail.com </a><a href = tel: +2347050837042>+2347050837042</a></p>", unsafe_allow_html = True)
-    col2.markdown("A copy of my CV can be accessed at <a href = 'https://drive.google.com/file/d/1f_9JAof0lxLJPuIkzCcjKxt-ohebQnht/view?usp=sharing'> CV [gdrive link] </a>", unsafe_allow_html = True)
+    col2.markdown("A copy of my CV can be accessed at <a href = 'https://docs.google.com/document/d/1abzvZSsUPLYUKVUf_qC6vZPpm_ByAZr3/edit?usp=sharing&ouid=109569805470530100719&rtpof=true&sd=true'> CV [gdrive link] </a>", unsafe_allow_html = True)
     col2.image('how-to-build-a-machine-learning-portfolio.jpeg')
 if currentLoc == "Project 1":
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
@@ -168,7 +168,7 @@ Project Highlight:<ul>
 if currentLoc == 'Project 6(nearing final stages)':
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.markdown("## <center>ARDUINO/ML AFib DETECTION</center>", unsafe_allow_html = True)
-    col2.write("""AN ECG ACQUISITION SYSTEM. The raw ECG is taken using AD8232 sensor with Arduino at 500Hz sampling frequency and stored in an array. Peaks are obtained fromthe array and features extracted. The extracted features are fed into a RandomForestClassifier model already built uaing scikiy learn and converted to C++ using micromlgen python library.
+    col2.write("""AN ECG ACQUISITION SYSTEM. The raw ECG is taken using AD8232 sensor with Arduino at 500Hz sampling frequency and stored in an array. Peaks are obtained from the array and features extracted. The extracted features are fed into a RandomForestClassifier model already built using scikit learn and converted to C++ using micromlgen python library.
              \nThe model was trained to detect Normal Sinus Rhythm, AFib and Other Heart diseases. The model prediction will be displayed on an LCD screen. The ecg array and extracted features will be saved on SD card and can be used on a streamlit app to display some information.
              Anticipate!!!
              """)
@@ -176,7 +176,7 @@ if currentLoc == 'Project 6(nearing final stages)':
 if currentLoc == 'Project 7(ongoing)':
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
     col2.markdown("## <center>NEURAL TRANSLATION AND AUDIO GENERATION</center>", unsafe_allow_html = True)
-    col2.write('ANTICIPATE!!!. \nIt is a model that takes audio directly from a microphone, transcribes it, translate to other languages, trasforms the translated texts to audio, send over bluetooth with raspberry to multiple bluetooth speakers')
+    col2.write('ANTICIPATE!!!. \nIt is a system that takes audio directly from a microphone, transcribes it, translate to other languages, trasforms the translated texts to audio, send over bluetooth with raspberry to multiple bluetooth speakers with each speaker handling specific language.')
 
 if currentLoc == "Project 3":
     col2.markdown("# <center>ABDULSALAM BASIT ML PORTFOLIO</center>", unsafe_allow_html = True)
